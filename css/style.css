@@ -1,0 +1,183 @@
+:root {
+  --text-color: #212121;
+  --logo-color: #000000;
+  --hover-color: #2196f3;
+  --contacts-color: #757575;
+  --foot-cont-color: rgba(255, 255, 255, 0.6);
+  --fons-html: #ffffff;
+  --fons-title-color: #2f303a;
+  --button-color: #f5f4fa;
+  --line-color: #ececec;
+}
+
+* {
+  list-style: none;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  background: var(--fons-html);
+  color: var(--title-color);
+}
+
+/* Header
+=================== */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2em;
+  text-decoration: none;
+  color: var(--hover-color);
+}
+
+.logo .head-logo-elem {
+  color: var(--logo-color);
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1em;
+}
+
+.nav .nav-elem:hover,
+.nav .nav-elem:focus {
+  color: var(--hover-color);
+}
+
+.nav-elem {
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.contacts {
+  text-decoration: none;
+  color: var(--contacts-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--hover-color);
+}
+
+/* Main
+=================== */
+
+.title {
+  background-color: var(--fons-title-color);
+}
+
+.title-text {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4em;
+  color: var(--fons-html);
+}
+
+.title-but {
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9em;
+  cursor: pointer;
+  background: var(--hover-color);
+  color: var(--fons-html);
+}
+
+.quality-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1em;
+}
+
+.quality-text {
+  font-size: 14px;
+  line-height: 1.7em;
+  color: var(--contacts-color);
+}
+
+.services-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+}
+
+.team-name,
+.team-position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.team-position {
+  color: var(--contacts-color);
+}
+
+/* Button
+=================== */
+
+.work-but {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6em;
+  cursor: pointer;
+  background: var(--button-color);
+}
+
+.work-but:hover,
+.work-but:focus {
+  background: var(--hover-color);
+  color: var(--fons-html);
+}
+
+/* Features
+=================== */
+
+.features-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.9em;
+  color: var(--contacts-color);
+}
+
+/* Footer
+=================== */
+
+.footer {
+  background: var(--fons-title-color);
+}
+
+.foot-logo-elem {
+  color: var(--fons-html);
+}
+
+.foot-add,
+.foot-contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+.foot-add {
+  color: var(--fons-html);
+}
+
+.foot-contacts {
+  text-decoration: none;
+  color: var(--foot-cont-color);
+}
+
+.foot-contacts:hover,
+.foot-contacts:focus {
+  color: var(--hover-color);
+}
