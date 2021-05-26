@@ -124,7 +124,7 @@ ul {
   color: var(--hover-color);
 }
 
-/* Main
+/* Title section
 =================== */
 
 .title {
@@ -134,6 +134,7 @@ ul {
 }
 
 .title-text {
+  padding-bottom: 30px;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -153,6 +154,9 @@ ul {
   background: var(--hover-color);
   color: var(--fons-html);
 }
+
+/* Quality section
+=================== */
 
 .quality-item {
   display: flex;
@@ -179,6 +183,9 @@ ul {
   color: var(--contacts-color);
 }
 
+/* Service section
+=================== */
+
 .services-title,
 .team-title {
   font-weight: 700;
@@ -194,6 +201,9 @@ ul {
 .services-item .services-elem + .services-elem {
   margin-left: 30px;
 }
+
+/* Team section
+=================== */
 
 .team {
   background: var(--button-color);
@@ -263,7 +273,8 @@ ul {
 =================== */
 
 .footer {
-  padding: 60px 1154px 60px 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--fons-title-color);
 }
 
@@ -279,6 +290,7 @@ ul {
 }
 
 .foot-add {
+  margin-top: 20px;
   color: var(--fons-html);
 }
 
@@ -290,4 +302,8 @@ ul {
 .foot-contacts:hover,
 .foot-contacts:focus {
   color: var(--hover-color);
+}
+
+.foot-elem {
+  margin-top: 9px;
 }
