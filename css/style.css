@@ -7,6 +7,7 @@
   --fons-html: #ffffff;
   --fons-title-color: #2f303a;
   --button-color: #f5f4fa;
+  --but-hover-color: #188ce8;
   --line-color: #ececec;
   --border-color: #eeeeee;
 }
@@ -145,6 +146,12 @@ img {
 
 .title-but {
   color: var(--fons-html);
+}
+
+.title-but:hover,
+.title-but:focus {
+  background: var(--but-hover-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .title-but,
