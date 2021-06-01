@@ -58,8 +58,12 @@ img {
 
 /* Header
 =================== */
+
 .header .container {
   display: flex;
+}
+
+.header {
   border-bottom: 1px solid var(--line-color);
 }
 
@@ -77,7 +81,6 @@ img {
 }
 
 .nav {
-  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1em;
@@ -145,7 +148,20 @@ img {
 }
 
 .title-but {
+  font-weight: 700;
+  line-height: 1.9em;
+  padding: 10px 32px;
+  background: var(--hover-color);
   color: var(--fons-html);
+}
+
+.title-but,
+.work-but {
+  font-size: 16px;
+  border-radius: 4px;
+  font-family: inherit;
+  cursor: pointer;
+  border: transparent var(--hover-color);
 }
 
 .title-but:hover,
@@ -154,21 +170,12 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.title-but,
-.work-but {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9em;
-  cursor: pointer;
-  padding: 10px 32px;
-  border-radius: 4px;
-  border: transparent var(--hover-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background: var(--hover-color);
-}
-
 /* Quality section
 =================== */
+
+.quality.section {
+  padding-bottom: 0;
+}
 
 .quality-item {
   display: flex;
@@ -190,6 +197,7 @@ img {
   font-size: 14px;
   line-height: 1.1em;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .quality-text {
@@ -245,7 +253,7 @@ img {
 }
 
 .card-team-cont {
-  padding: 20px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -278,9 +286,8 @@ img {
 }
 
 .work-but {
-  font-family: inherit;
+  padding: 6px 22px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.6em;
   background: var(--button-color);
   color: var(--text-color);
