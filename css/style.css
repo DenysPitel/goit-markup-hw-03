@@ -275,6 +275,10 @@ img {
 
 /* Button
 =================== */
+.hidden {
+  display: none;
+}
+
 .work-item {
   display: flex;
   justify-content: center;
