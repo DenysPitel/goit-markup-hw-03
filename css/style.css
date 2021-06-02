@@ -282,7 +282,7 @@ img {
 .work-item {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .work-item .work-elem + .work-elem {
